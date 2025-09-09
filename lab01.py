@@ -23,7 +23,8 @@ def main():
     investment += investment * interest_rate
     investment += investment * interest_rate
     investment += investment * interest_rate
-    print(f'After 5 years, your investment will be worth {investment} dollars.')
+    # Convert float to str with str() function
+    print('After 5 years, your investment will be worth ' + str(investment) + ' dollars.')
     # expected output: After 5 years, your investment will be worth 1187.6863056468749 dollars.
 
 if __name__ == "__main__":
